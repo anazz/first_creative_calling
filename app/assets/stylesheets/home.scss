@@ -8,6 +8,21 @@
   box-sizing:         border-box;
 }
 
+/* for Safari */
+
+@-webkit-keyframes keyarm {
+    0% { -webkit-transform: rotate(0deg); }
+    5% { -webkit-transform: rotate(-14deg); }
+    10% { -webkit-transform: rotate(0deg); }
+    100% { -webkit-transform: rotate(0deg); }
+}
+
+/* for Safari */
+
+.row:before, .row:after{
+display:inline-block;
+}
+
 @media (min-width: 768px) {
   .container {
     width: 750px;
