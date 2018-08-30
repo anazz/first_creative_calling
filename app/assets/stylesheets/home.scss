@@ -1,11 +1,25 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
 
+/* At the beginning of every scss doc (all `till Homepage) */
 
--webkit-box-sizing: border-box;
--moz-box-sizing: border-box;
--ms-box-sizing: border-box;  
-box-sizing: border-box;
+@mixin box_sizing {
+  -webkit-box-sizing: border-box;	
+  -moz-box-sizing:    border-box;
+  -ms-box-sizing:     border-box;
+  box-sizing:         border-box;
+}
+
+/* for Safari */
+
+@-webkit-keyframes keyarm {
+    0% { -webkit-transform: rotate(0deg); }
+    5% { -webkit-transform: rotate(-14deg); }
+    10% { -webkit-transform: rotate(0deg); }
+    100% { -webkit-transform: rotate(0deg); }
+}
+
+/* for Safari */
 
 .row:before, .row:after{
 display:inline-block;
