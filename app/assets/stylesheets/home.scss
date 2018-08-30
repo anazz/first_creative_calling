@@ -1,6 +1,8 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
 
+/* At the beginning of every scss doc (all `till Homepage) */
+
 @mixin box_sizing {
   -webkit-box-sizing: border-box;	
   -moz-box-sizing:    border-box;
